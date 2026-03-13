@@ -1,0 +1,12 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:local="using:OCCT_Avalonia"
+        x:Class="OCCT_Avalonia.MainWindow"
+        Title="OCCT_Avalonia from BIMCoder Liang (bim.frankliang@foxmail.com)">
+    <Grid Background="White">
+        <local:OcctViewer 
+            HorizontalAlignment="Stretch" 
+            VerticalAlignment="Stretch" />
+    </Grid>
+</Window>
