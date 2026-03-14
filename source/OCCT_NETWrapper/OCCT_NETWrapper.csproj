@@ -14,5 +14,8 @@
 		<AppendTargetFrameworkToOutputPath>output</AppendTargetFrameworkToOutputPath>
 		<OutputPath>..\..\build\Release</OutputPath>
 </PropertyGroup>
+<ItemGroup>
+  <ProjectReference Include="..\OCCT_CAPI\OCCT_CAPI.vcxproj" />
+</ItemGroup>
 
 </Project>
